@@ -1,4 +1,4 @@
-package org.example.backend.repository;
+package org.example.backend.respository;
 
 import org.apache.catalina.User;
 import org.example.backend.model.UserModel;

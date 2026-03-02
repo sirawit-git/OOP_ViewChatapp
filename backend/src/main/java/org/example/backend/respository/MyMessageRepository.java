@@ -1,4 +1,4 @@
-package org.example.backend.repository;
+package org.example.backend.respository;
 
 import lombok.RequiredArgsConstructor;
 import org.example.backend.model.MessageModel;
@@ -15,7 +15,7 @@ import java.util.UUID;
 public class MyMessageRepository implements MessageRepository {
 
     private final List<MessageModel> messages = new ArrayList<>();
-    private final org.example.backend.repository.UserRepository userRepository;
+    private final org.example.backend.respository.UserRepository userRepository;
 
     @Override
     public List<MessageModel> getMessages() {

@@ -1,4 +1,4 @@
-package org.example.backend.repository;
+package org.example.backend.respository;
 
 import org.example.backend.model.UserModel;
 import org.springframework.stereotype.Repository;
@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.List;
 
 @Repository
-public class MyUserRepository implements org.example.backend.repository.UserRepository {
+public class MyUserRepository implements org.example.backend.respository.UserRepository {
     private Map<UUID, UserModel> users = new HashMap<>();
 
     @Override

@@ -3,7 +3,7 @@ package org.example.backend.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.backend.dto.CreateMessage;
 import org.example.backend.model.MessageModel;
-import org.example.backend.repository.MessageRepository;
+import org.example.backend.respository.MessageRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
